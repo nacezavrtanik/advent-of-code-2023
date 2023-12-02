@@ -49,8 +49,8 @@ def part_two():
 
 def main():
     """Solve puzzles."""
-    part_one()  # part_one executed in: 0.0021 seconds
-    part_two()  # part_two executed in: 0.0018 seconds
+    part_one()  # part_one executed in: 0.0013 seconds
+    part_two()  # part_two executed in: 0.0023 seconds
 
 
 if __name__ == "__main__":

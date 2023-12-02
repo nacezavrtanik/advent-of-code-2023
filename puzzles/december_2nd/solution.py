@@ -85,7 +85,7 @@ def part_one():
 
 @timer
 def part_two():
-    """Print solution to Part 3."""
+    """Print solution to Part 2."""
     with open("puzzle_input.txt", "r") as game_info:
         result = sum([Game.from_string(line).minimum_cubes().power for line in game_info])
     print(result)
