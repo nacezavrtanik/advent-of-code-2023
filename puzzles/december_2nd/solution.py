@@ -19,11 +19,6 @@ class Cubes(namedtuple("Cubes", Color)):
     __slots__ = ()
 
     @property
-    def total(self):
-        """Return the total number of cubes."""
-        return sum(self)
-
-    @property
     def power(self):
         """Return the product of the number of cubes of each color."""
         return reduce(lambda x, y: x*y, self)
@@ -63,7 +58,7 @@ class Game:
 
     def is_possible(self, available_cubes):
         """Return True if the game is possible for a given set of cubes."""
-        return all([cubes <= available_cubes and cubes.total <= available_cubes.total for cubes in self.cubes_list])
+        return all([cubes <= available_cubes for cubes in self.cubes_list])
 
     def minimum_cubes(self):
         """Return the cubes object with the minimal number for each color."""
