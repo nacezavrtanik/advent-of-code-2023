@@ -15,3 +15,6 @@ The complete list of puzzles can be found on the [official AoC website](https://
   - :gift: [December 4th](
     https://github.com/nacezavrtanik/advent-of-code-2023/blob/main/puzzles/december_4th/solution.py
     ) :gift:
+- :cookie: [December 5th](
+    https://github.com/nacezavrtanik/advent-of-code-2023/blob/main/puzzles/december_5th/solution.py
+    ) :cookie:
